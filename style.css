@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Rectangle14.png);
+    background-size: cover;
+   
+}
+.logo{
+    margin: 5px;
+}
+.logo img{
+    width :150px;
+    height:60px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-button button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.promo-banner img {
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+
+.best-seller {
+    padding: 20px;
+    text-align: center;
+}
+
+.best-seller h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product .description {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.product .details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product .order-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product .order-button:hover {
+    background-color: darkred;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    margin-top: 40px;
+}
+
+footer h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p strong {
+    font-family: 'Cursive', serif;
+    font-style: italic;
+    font-size: 18px;
+}
